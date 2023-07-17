@@ -49,6 +49,10 @@ body {
     margin: 1em 0 2em 0;
 }
 
+.container__imagem__dois {
+    margin: 1em 0 2em 0;
+}
+
 .container__botao {
     background-color: var(--botao-roxo);
     border-radius: 8px;
@@ -83,6 +87,17 @@ body {
     margin: 0 8em;
 }
 
+.secundario__dois {
+    align-items: center;
+    margin: 0 8em;
+}
+
+.secundario__tres {
+    align-items: center;
+    margin: 0 8em;
+}
+
+
 .descricao__titulo {
     font-weight: 700;
     font-size: 37px;
@@ -104,6 +119,11 @@ body {
 .container__descricao {
     padding: 2em;
 }
+
+.container__descricao__dois {
+    padding: 2em;
+}
+
 
 .envios {
     align-items:center;

@@ -49,9 +49,6 @@ body {
     margin: 1em 0 2em 0;
 }
 
-.container__imagem:hover {
-}
-
 .container__botao {
     background-color: var(--botao-roxo);
     border-radius: 8px;
@@ -157,4 +154,117 @@ body {
 
 .lista__botao:active {
     color: var(--action-color);
+}
+
+@media screen and (max-width: 768px) {
+    .container__geral {
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        width: 50vw;
+        background-image: none;
+        padding: 0;
+        margin: 0em 6em;
+        text-align:center;
+        justify-content: center;
+        scale: 70%;
+    }
+
+    .container__caixa {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .secundario {
+        align-items: center;
+        text-align: center;
+        scale: 30%;
+        padding: 0;
+        margin: 0em 5em;
+        height: 100vw;
+    }
+
+    .secundario__dois {
+        align-items: center;
+        margin: 0em;
+        padding: 0;
+        width: 100%;
+        scale: 50%;
+    }
+
+    .container__descricao__dois {
+        display: flex;
+        flex-direction: column;
+        margin: 0 ;
+        align-items: center;
+        text-align: center;
+        padding: 0em;
+        width: 100%;
+    }
+
+    .secundario__imagem {
+        margin: 0em;
+    }
+
+
+    .container__descricao {
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        padding: 0em;
+    }
+    .descricao__texto__dois {
+        text-align: center;
+        padding: 0em 8em;
+        margin: 0em;
+        width: 100%;
+    }
+
+    .descricao__titulo {
+        text-align: center;
+        width: 100%;
+        padding: 0em 2em;
+
+    }
+
+    .descricao__texto {
+        text-align: center;
+        padding: 0;
+        margin: 0em 5em;
+        width: 100%;
+    }
+    
+    .envios__bloco {
+        scale: 50%;
+    }
+
+    .rodape {
+        justify-content: center;
+        margin: 0em 0.5em;
+        padding: 0em 0em;
+        gap: 0;
+    }
+
+    .rodape__lista{
+        margin: 0;
+        padding: 0;
+    }
+
+    .lista__botao {
+        font-size: 6px;
+        padding: 0em 0.5em;
+        gap: 0;
+        
+
+    }
+
+    .rodape__texto {
+        font-size: 8px;
+        margin: 2em 0em;
+        padding: 0;
+    }
 }

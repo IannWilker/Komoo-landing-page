@@ -189,6 +189,8 @@ body {
     }
 
     .secundario__dois {
+        display: flex;
+        flex-direction: column-reverse;
         align-items: center;
         margin: 0em;
         padding: 0;
@@ -197,16 +199,20 @@ body {
     }
 
     .secundario__tres {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 0 2em;
-        padding: 0;
-        gap: 0;
+        margin: 0em 3.5em;
+        padding: 0em;
+        gap: 20%;
         scale: 30%;
     }
 
-    .container__imagem {
-        scale: 70%;
+    .container__imagem__dois {
+        margin: 0em 0em 0em 20em;
+
     }
 
     .container__descricao__dois {
@@ -217,6 +223,7 @@ body {
         text-align: center;
         padding: 0em;
         width: 100%;
+        scale: 120%;
     }
 
     .secundario__imagem {
